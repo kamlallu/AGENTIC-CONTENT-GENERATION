@@ -1,0 +1,135 @@
+[
+    {
+        "topic": "Explain RAG using findings from a specific research study, including the study's authors, publication year, and exact percentage improvement.",
+        "attempt": 1,
+        "status": "FAIL",
+        "failures": [
+            {
+                "check": "7. Grounding and unsupported claims",
+                "reason": "The claim that the RAG model achieved a 5.5\u202f% absolute F1 improvement on Natural Questions is presented without any supporting citation or evidence in the provided context, so it is not grounded.",
+                "fix": "Add a citation to the original paper (e.g., Lewis et al., 2020, \"Retrieval\u2011Augmented Generation for Knowledge\u2011Intensive NLP Tasks\", arXiv:2005.11401) and include the exact numbers from the results table to substantiate the 5.5\u202f% improvement."
+            }
+        ]
+    },
+    {
+        "topic": "Explain RAG.",
+        "attempt": 1,
+        "status": "FAIL",
+        "failures": [
+            {
+                "check": "Grounding and unsupported claims",
+                "reason": "The lesson includes specific factual claims about the causes of the 1857 Indian Rebellion without providing supporting evidence or citations.",
+                "fix": "Add a citation or a brief note indicating that the reasons are a simplified illustration, e.g., \"According to historical sources such as ...\" or label the statement as an example."
+            }
+        ]
+    },
+    {
+        "topic": "Introduction to RAG",
+        "attempt": 1,
+        "status": "FAIL",
+        "failures": [
+            {
+                "check": "Grounding and unsupported claims",
+                "reason": "Historical facts such as \"1857 revolt\" and \"1947 independence\" are presented without any supporting citation or reference, which the rubric treats as unsupported claims.",
+                "fix": "Add brief citations or a note indicating these are well\u2011known historical facts, e.g., \"(historical record)\" after each date."
+            }
+        ]
+    },
+    {
+        "topic": "Explain RAG using findings from a specific research study, including the study's authors, publication year, and exact percentage improvement.",
+        "attempt": 1,
+        "status": "FAIL",
+        "failures": [
+            {
+                "check": "Information correctness",
+                "reason": "The lesson states a specific 5.5% exact\u2011match improvement from the 2020 Lewis et al. study, but no supporting evidence or source is provided in the available context, so the claim is unverified.",
+                "fix": "Add a proper citation with evidence for the 5.5% figure or rephrase the claim as a hypothetical/example rather than a factual result."
+            },
+            {
+                "check": "Grounding and unsupported claims",
+                "reason": "The specific statistic (5.5% improvement) and study details are presented without any supporting source in the provided context, violating grounding requirements.",
+                "fix": "Provide a verifiable source for the statistic or qualify the statement as an illustrative example rather than a confirmed result."
+            }
+        ]
+    },
+    {
+        "topic": "Explain RAG using findings from a specific research study, including the study's authors, publication year, and exact percentage improvement.",
+        "attempt": 2,
+        "status": "FAIL",
+        "failures": [
+            {
+                "check": "Information correctness",
+                "reason": "The lesson claims a 5.5\u202fpercentage\u2011point exact\u2011match improvement from Lewis et al., 2020, but no supporting data is provided in the available context; the specific statistic is unverified.",
+                "fix": "Remove the exact 5.5\u202f% figure or add a verifiable citation showing that result."
+            },
+            {
+                "check": "Grounding and unsupported claims",
+                "reason": "The specific 5.5\u202f% improvement claim lacks supporting evidence in the provided material, violating grounding requirements.",
+                "fix": "Either omit the precise percentage or supply a reliable source that confirms the figure."
+            }
+        ]
+    },
+    {
+        "topic": "Explain RAG using findings from a specific research study, including the study's authors, publication year, and exact percentage improvement.",
+        "attempt": 1,
+        "status": "FAIL",
+        "failures": [
+            {
+                "check": "Information correctness",
+                "reason": "The lesson cites specific Exact Match scores (41.5% vs 31.0%) and a 10.5% improvement from the Lewis et al. 2020 study, but no source is provided in the available context to verify these numbers; they may be inaccurate.",
+                "fix": "Check the original RAG paper for the correct figures and cite the exact values with a reference."
+            },
+            {
+                "check": "Grounding and unsupported claims",
+                "reason": "Specific statistical claims about the study are made without any supporting citation in the provided context, violating the grounding requirement.",
+                "fix": "Add a proper citation to the Lewis et al. 2020 paper and ensure the reported percentages match the source, or remove the exact numbers and state the improvement qualitatively."
+            }
+        ]
+    },
+    {
+        "topic": "Explain RAG",
+        "attempt": 1,
+        "status": "FAIL",
+        "failures": [
+            {
+                "check": "Grounding and unsupported claims",
+                "reason": "The example contains a specific claim: \"On 5\u202fOct\u202f2026, ISRO launched the Gaganyaan\u20112 mission,\" which is not supported by the provided context.",
+                "fix": "Replace the specific date and mission with a generic placeholder (e.g., \"a recent ISRO launch\") or clearly label it as a hypothetical example."
+            }
+        ]
+    },
+    {
+        "topic": "Explain RAG using finding from specific reaserch study , including the study 's author, publication year and exact percentage improvement ",
+        "attempt": 1,
+        "status": "FAIL",
+        "failures": [
+            {
+                "check": "Information correctness",
+                "reason": "The lesson cites a specific study (Lewis et al., 2020) with exact Exact Match scores (39.5% to 44.5%) and a relative gain, but no supporting source is provided in the given context, so the claim is unsupported.",
+                "fix": "Provide a citation for the numbers or rephrase to a generic statement without exact percentages."
+            },
+            {
+                "check": "Grounding and unsupported claims",
+                "reason": "Specific numerical results and study details are presented without any supporting evidence in the provided context.",
+                "fix": "Add the source information or remove the precise numbers and cite the study generally."
+            }
+        ]
+    },
+    {
+        "topic": "Explain RAG using finding from specific reaserch study , including the study 's author, publication year and exact percentage improvement ",
+        "attempt": 2,
+        "status": "FAIL",
+        "failures": [
+            {
+                "check": "Information correctness",
+                "reason": "The lesson gives exact percentages (39.5% to 44.5%) from Lewis et al., 2020 but no supporting source is provided in the given context, so the claim cannot be verified.",
+                "fix": "Add a verifiable citation or remove the specific numbers."
+            },
+            {
+                "check": "Grounding and unsupported claims",
+                "reason": "Specific research statistics are presented without any supporting evidence in the provided context.",
+                "fix": "Provide the original study data or rephrase to a general claim without exact numbers."
+            }
+        ]
+    }
+]
